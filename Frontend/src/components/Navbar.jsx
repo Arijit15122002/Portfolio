@@ -15,6 +15,10 @@ function Navbar () {
         setHidden(!hidden)
     }
 
+    const copyMailToClipBoard = () => {
+        navigator.clipboard.writeText('biswasarijit2002@gmail.com')
+    }
+
   return (
     <nav className='bg-[#e5e5e5] dark:bg-[#323232] h-[60px] w-full px-6 flex flex-row items-center justify-between fixed z-50'>
         <div className='flex flex-row items-center gap-5'>
@@ -22,7 +26,7 @@ function Navbar () {
             <div className='text-black dark:text-white kanit text-xl font-semibold md:hidden xl:block'>- by Arijit</div>
             <div className='hidden md:flex flex-row text-sm dark:text-white gap-4 pl-4 h-[35px] rounded-full bg-[#c6c6c6] dark:bg-[#3f3f3f] shadow-sm shadow-[#a3a3a3]/50 dark:shadow-black/50 cabin items-center'>
                 <div>biswasarijit2002@gmail.com</div>
-                <div className='bg-white dark:bg-[#6e6e6e] h-full flex items-center justify-end px-4 rounded-full cursor-pointer text-[17px]'>copy</div>
+                <div className='bg-white dark:bg-[#6e6e6e] h-full flex items-center justify-end px-4 rounded-full cursor-pointer text-[17px]' onClick={copyMailToClipBoard}>copy</div>
             </div>
             <Link className='hidden px-6 h-[35px] md:flex items-center bg-white dark:bg-[#6e6e6e] dark:text-white rounded-full shadow-sm shadow-[#a3a3a3]/50 dark:shadow-black/50 cabin'>
                 CV

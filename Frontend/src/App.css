@@ -1,0 +1,129 @@
+/* Scroll CSS */
+#scrollHome{
+
+}
+#scrollHome::-webkit-scrollbar{
+    width: 0rem;
+}
+#scrollHome::-webkit-scrollbar-track{
+    visibility: hidden;
+}
+#scrollHome::-webkit-scrollbar-thumb{
+    width: 0.4rem;
+    border-radius:20px ;
+}
+#scrollHome:hover::-webkit-scrollbar-thumb{
+    visibility: hidden;
+}
+
+
+
+
+/* Fonts */
+.cedarville{
+  font-family: "Cedarville Cursive", cursive;
+}
+
+.radio {
+  font-family: "Radio Canada Big", sans-serif;
+}
+
+.cabin {
+  font-family: "Cabin Sketch", sans-serif;
+}
+
+.kanit {
+  font-family: "Kanit", sans-serif;
+}
+
+.anton {
+  font-family: "Anton", sans-serif;
+}
+
+.belanosima {
+  font-family: "Belanosima", sans-serif;
+}
+
+.mooli {
+  font-family: "Mooli", sans-serif;
+}
+
+.protest {
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+.mono {
+  font-family: "Major Mono Display", monospace;
+}
+
+.dosis {
+  font-family: "Dosis", sans-serif;
+}
+
+.playwrite {
+  font-family: "Playwrite FR Moderne", cursive;
+}
+
+.itim {
+  font-family: "Itim", cursive;
+}
+
+
+.glowup {
+  text-shadow: 0px 0px 10px rgb(0,255,195);
+}
+
+.profileWallpaper {
+  background-image: url('https://images.unsplash.com/photo-1569412148958-600837f89a65?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profileGlow {
+  box-shadow: 0px 0px 10px #232323;
+}
+
+
+.customizedHidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 1s;
+}
+
+
+
+/* Skill Page CSS starts here */
+.customizedHidden1 {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show1 {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.customizedHidden2{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
+  transition: all 1s;
+}
+
+.show2 {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}

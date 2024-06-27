@@ -168,7 +168,7 @@ function MobileView () {
                         </div>
                     </div>
 
-                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col my-4'>
+                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col'>
                         <div className='flex flex-row items-center gap-3'>
                             <div className=' bg-[#0d84ec] inline-block rounded-2xl p-3'>
                             <svg fill='#ffffff' version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="30px"
@@ -192,7 +192,7 @@ function MobileView () {
                         </div>
                     </div>
 
-                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col my-4'>
+                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col'>
                         <div className='flex flex-row items-center gap-3'>
                             <div className=' bg-[#f5f52e] inline-block rounded-2xl p-3'>
                             <svg fill='#232323'  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="30px"

@@ -36,7 +36,7 @@ return (
 					</div>
 				</div>
 			</div>
-			<div className='h-[100vh] md:h-full md:w-[49%] flex flex-col items-center justify-center px-6'>
+			<div className='h-[100vh] md:h-auto md:w-[49%] flex flex-col items-center justify-center px-6'>
 				<div className='h-auto w-full flex flex-col items-start '>
 					<div className=' mb-[-4px] bg-[#232323] dark:bg-[#cccccc] text-md px-4 py-2 radio text-white dark:text-[#232323] rounded-t-xl'>One of my favprite quotes: </div>
 					<div className='border-4 border-[#232323] rounded-lg rounded-tl-none dark:border-[rgb(204,204,204)] px-6 py-8'>
@@ -44,7 +44,7 @@ return (
 						<div className='px-6 text-lg kanit dark:text-[#dddddd] mt-4'>
 							Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.
 						</div>
-						<div className='text-2xl protest dark:text-white font-extrabold flex justify-end'>
+						<div className='text-2xl protest dark:text-white flex justify-end'>
 							- Albert Einstien
 						</div>
 					</div>

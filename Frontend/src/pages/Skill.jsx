@@ -44,7 +44,7 @@ function Skill () {
                     </div>
                 </div>
             </div>
-            <div className='w-[90%] h-[75%] md:h-[95%] md:w-[50%]  overflow-y-auto flex flex-col gap-5 py-3 items-center lg:hidden' id='scrollHome'>
+            <div className='w-[90%] h-[75%] md:h-[95%] md:w-[50%] flex overflow-y-auto items-center justify-center lg:hidden' id='scrollHome'>
                 <MobileView />
             </div>
             <div className='hidden lg:flex w-[68%] h-full justify-center items-center'>

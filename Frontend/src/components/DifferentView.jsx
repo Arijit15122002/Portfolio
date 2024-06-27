@@ -231,7 +231,7 @@ function ComputerView() {
     return (
     <>
         <div className="w-[95%] h-full flex flex-row justify-center gap-4">
-            <div className='w-[33%] h-[600px] overflow-y-auto my-6' id='scrollHome'>
+            <div className='w-[33%] h-[600px] overflow-y-auto my-6 rounded-3xl overflow-hidden' id='scrollHome'>
                 <div className='w-full h-auto bg-[#f6f6f6] dark:bg-[#232323]  rounded-3xl p-2 flex flex-col my-4 '>
                     <div className='flex flex-row items-center gap-3'>
                         <div className=' bg-[#068e98] inline-block rounded-2xl p-3'>
@@ -293,7 +293,7 @@ function ComputerView() {
                     </div>
                 </div>
             </div> 
-            <div className='w-[33%] h-full flex flex-col justify-center gap-5'>
+            <div className='w-[33%] h-full flex flex-col justify-center gap-5 rounded-3xl overflow-hidden'>
                 <div className='w-full h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col'>
                     <div className='flex flex-row items-center gap-3'>
                         <div className=' bg-[#0d52d3] inline-block rounded-2xl p-3'>
@@ -323,7 +323,7 @@ function ComputerView() {
                     </div>
                 </div>
             </div> 
-            <div className='w-[33%] h-[600px] overflow-y-auto my-5' id='scrollHome'>
+            <div className='w-[33%] h-[600px] overflow-y-auto my-5 rounded-3xl overflow-hidden' id='scrollHome'>
                 <div className='w-full h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col my-auto'>
                     <div className='flex flex-row items-center gap-3'>
                         <div className=' bg-[#ef7605] inline-block rounded-2xl p-3'>

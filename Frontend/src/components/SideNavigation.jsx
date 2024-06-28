@@ -83,13 +83,13 @@ function SideNavigation ({hidden, setHidden}) {
             </div>
 
             <div className='flex flex-col w-full h-auto gap-6 sm:gap-4 items-center'>
-                <NavLink onClick={() => setHidden(true)}>
+                {/* <NavLink to={'/contact'} onClick={() => setHidden(true)}>
                     <div className=' my-4 flex items-center text-lg sm:text-md text-black dark:text-white border-[3px] border-[#232323] dark:border-white rounded-md protest'>
                         <div className='px-8 py-2'> Hire me </div>
                     </div>
-                </NavLink>
+                </NavLink> */}
 
-                <NavLink onClick={() => setHidden(true)} className='dark:bg-[#dddddd] bg-[#232323] shadow-black/50 border-white dark:border-black border-[2px] shadow-md flex flex-row px-6 py-3 rounded-xl overflow-hidden items-center'>
+                <NavLink to={'https://drive.google.com/file/d/1FCHNsOzYDJCFfi_19hazG0bOuSPTP_Z-/view?usp=sharing'} onClick={() => setHidden(true)} className='dark:bg-[#dddddd] bg-[#232323] shadow-black/50 border-white dark:border-black border-[2px] shadow-md flex flex-row px-6 py-3 rounded-xl overflow-hidden items-center'>
                     <div className='mooli text-white dark:text-[#232323] font-bold'>Find my CV here</div>
                 </NavLink>
             </div>

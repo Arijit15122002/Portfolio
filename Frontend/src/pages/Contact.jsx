@@ -57,7 +57,7 @@ function Contact () {
 				<div className='text-[#111111] dark:text-[#ffffff]'>
 					<span className='cedarville font-semibold'>S</span><span className='protest'>IT</span>
 				</div>
-				<div className='monoton font-semibold text-[#232323] dark:text-[#dddddd]'>
+				<div className='monoton font-semibold text-[#232323] dark:text-[#ffffff]'>
 					TIGHT
 				</div>
 			</div>
@@ -89,7 +89,7 @@ function Contact () {
 							Connect with me <span className='playwrite font-bold'>on...</span>
 						</div>
 						<div className='flex flex-row gap-5 mx-6'>
-							<a href='' className='p-3 bg-[#cbcbcb] rounded-full cursor-pointer'>
+							<a href='' className='p-3 bg-[#cbcbcb] dark:bg-[#111111] rounded-full cursor-pointer'>
 								<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
 							</a>
 							<a href='' className='p-3 bg-[#cbcbcb] rounded-full cursor-pointer'>

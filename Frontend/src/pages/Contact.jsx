@@ -41,7 +41,7 @@ function Contact () {
 
 						<textarea
 						placeholder='Brief your IDEA here...'
-						className='w-[70%] h-[120px] max-h-[150px] py-2 px-4 bg-[#eeeeee] dark:bg-[#444444] rounded-3xl focus:outline-none text-xl itim text-[#232323] dark:text-white '
+						className='w-[70%] h-[180px] md:h-[130px] max-h-[180px] py-2 px-4 bg-[#eeeeee] dark:bg-[#444444] rounded-3xl focus:outline-none text-xl itim text-[#232323] dark:text-white '
 						/>
 
 						<div className='bg-[#232323] dark:bg-[#efefef] text-white dark:text-[#232323] anton text-xl px-6 py-3 rounded-md shadow-md shadow-black/70'>

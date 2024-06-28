@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useRef} from 'react'
 import '../App.css'
 import useTheme from '../context/context.js'
 import { Link } from 'react-router-dom'
@@ -6,6 +6,50 @@ import { Link } from 'react-router-dom'
 function Homescreen () {
 	const {theme} = useTheme()
 
+	const observerRef = useRef(null)
+
+	useEffect(() => {
+		observerRef.current = new IntersectionObserver((entries) => {
+		  entries.forEach((entry) => {
+			if (entry.isIntersecting) {
+			  entry.target.classList.add('show1');
+			} else {
+			  entry.target.classList.remove('show1');
+			}
+		  });
+		});
+		const hiddenElements = document.querySelectorAll('.customizedHidden1');
+		hiddenElements.forEach((el) => observerRef.current.observe(el));
+	  
+		return () => {
+		  if (observerRef.current) {
+			observerRef.current.disconnect();
+		    }
+		};
+    }, []);
+
+
+	const observerRef2 = useRef(null)
+
+	useEffect(() => {
+		observerRef2.current = new IntersectionObserver((entries) => {
+			entries.forEach((entry) => {
+			if (entry.isIntersecting) {
+				entry.target.classList.add('show2');
+			} else {
+				entry.target.classList.remove('show2');
+			}
+			});
+		});
+		const hiddenElements = document.querySelectorAll('.customizedHidden2');
+		hiddenElements.forEach((el) => observerRef2.current.observe(el));
+		
+		return () => {
+			if (observerRef2.current) {
+			observerRef2.current.disconnect();
+			}
+		};
+		}, []);
 	
 return (
 <>
@@ -37,7 +81,7 @@ return (
 				</div>
 			</div>
 			<div className='h-[100vh] md:h-auto md:w-[49%] flex flex-col items-center justify-center px-6'>
-				<div className='h-auto w-full flex flex-col items-start '>
+				<div className='h-auto w-full flex flex-col items-start customizedHidden2'>
 					<div className=' mb-[-4px] bg-[#232323] dark:bg-[#cccccc] text-md px-4 py-2 radio text-white dark:text-[#232323] rounded-t-xl'>One of my favprite quotes: </div>
 					<div className='border-4 border-[#232323] rounded-lg rounded-tl-none dark:border-[rgb(204,204,204)] px-6 py-8'>
 						<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke={theme === 'dark' ? '#cccccc' : '#232323'} stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square-quote"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 12a2 2 0 0 0 2-2V8H8"/><path d="M14 12a2 2 0 0 0 2-2V8h-2"/></svg>
@@ -62,7 +106,7 @@ return (
 		</div>
 		<div className='w-full h-auto flex flex-col md:flex-row items-center justify-center mt-20'>
 			<div className='w-[90%] md:w-[60%] lg:w-[55%] xl:w-[50%] h-[60vh] md:h-full flex items-center justify-center mx-auto md:mx-0'>
-				<div className=' flex flex-col justify-center gap-5 px-10 py-24 m-10 rounded-2xl shadow-md bg-inherit dark:bg-[#2c2c2c] shadow-[#232323]/80 dark:shadow-black/70'>
+				<div className=' flex flex-col justify-center gap-5 px-10 py-24 m-10 rounded-2xl shadow-md bg-inherit dark:bg-[#2c2c2c] shadow-[#232323]/80 dark:shadow-black/70 customizedHidden1'>
 					<div className=' text-5xl lg:text-7xl text-[#808080] anton ita'>Exploring</div>
 					<div className=' text-5xl lg:text-7xl text-[#232323] dark:text-white kanit font-bold'>Boundless</div>
 					<div className=' text-6xl lg:text-8xl text-[#232323] dark:text-white kanit font-bold'>Universe</div>

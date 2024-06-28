@@ -55,7 +55,7 @@ function MobileView () {
     return (
         <>
             <div className=' w-full max-w-[400px] h-[90%] flex flex-col items-center gap-5 overflow-y-auto rounded-3xl overflow-hidden' id='scrollHome'>
-                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323]  rounded-3xl p-2 flex flex-col  '>
+                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323]  rounded-3xl p-2 flex flex-col  customizedHidden1'>
                         <div className='flex flex-row items-center gap-3'>
                             <div className=' bg-[#068e98] inline-block rounded-2xl p-3'>
                                 <svg fill='#ffffff' width="30px" height="30px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +72,7 @@ function MobileView () {
                         </div>
                     </div>
 
-                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col  '>
+                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col customizedHidden2'>
                         <div className='flex flex-row items-center gap-3'>
                             <div className=' bg-[#478c2c] dark:bg-[#3c692a] inline-block rounded-2xl p-3'>
                             <svg fill='#ffffff' version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="30px"
@@ -104,7 +104,7 @@ function MobileView () {
                         </div>
                     </div>
 
-                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323]  rounded-3xl p-2 flex flex-col '>
+                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323]  rounded-3xl p-2 flex flex-col customizedHidden1'>
                         <div className='flex flex-row items-center gap-3'>
                             <div className=' bg-[#eeeeee] dark:bg-[#111111] inline-block rounded-2xl p-3'>
                             <svg fill={theme.theme === 'dark' ? '#dddddd' : '#232323'} width="30px" height="30px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M24 18.588a1.529 1.529 0 0 1-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 0 1-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 0 1 1.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 0 1 1.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 0 0 0 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 0 0 2.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 0 1-2.589 3.957 6.272 6.272 0 0 1-7.306-.933 6.575 6.575 0 0 1-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 0 1 0 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"/></svg>
@@ -118,7 +118,7 @@ function MobileView () {
                         </div>
                     </div>
 
-                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col'>
+                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col customizedHidden2'>
                         <div className='flex flex-row items-center gap-3'>
                             <div className=' bg-[#0d52d3] inline-block rounded-2xl p-3'>
                             <svg fill="#ffffff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xml:space="preserve"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.036c-2.667 0-4.333 1.325-5 3.976 1-1.325 2.167-1.822 3.5-1.491.761.189 1.305.738 1.906 1.345C13.387 10.855 14.522 12 17 12c2.667 0 4.333-1.325 5-3.976-1 1.325-2.166 1.822-3.5 1.491-.761-.189-1.305-.738-1.907-1.345-.98-.99-2.114-2.134-4.593-2.134zM7 12c-2.667 0-4.333 1.325-5 3.976 1-1.326 2.167-1.822 3.5-1.491.761.189 1.305.738 1.907 1.345.98.989 2.115 2.134 4.594 2.134 2.667 0 4.333-1.325 5-3.976-1 1.325-2.167 1.822-3.5 1.491-.761-.189-1.305-.738-1.906-1.345C10.613 13.145 9.478 12 7 12z"/></svg>
@@ -132,7 +132,7 @@ function MobileView () {
                         </div>
                     </div>
 
-                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col'>
+                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col customizedHidden1'>
                         <div className='flex flex-row items-center gap-3'>
                             <div className=' bg-[#04691f] inline-block rounded-2xl p-3'>
                                 <svg fill='#ffffff' width="30px" height="30px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -148,7 +148,7 @@ function MobileView () {
                         </div>
                     </div>
 
-                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col '>
+                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col customizedHidden2'>
                         <div className='flex flex-row items-center gap-3'>
                             <div className=' bg-[#ef7605] inline-block rounded-2xl p-3'>
                             <svg width="30px" height="30px" viewBox="-1 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -168,7 +168,7 @@ function MobileView () {
                         </div>
                     </div>
 
-                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col'>
+                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col customizedHidden1'>
                         <div className='flex flex-row items-center gap-3'>
                             <div className=' bg-[#0d84ec] inline-block rounded-2xl p-3'>
                             <svg fill='#ffffff' version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="30px"
@@ -192,7 +192,7 @@ function MobileView () {
                         </div>
                     </div>
 
-                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col'>
+                <div className='w-full max-w-[400px] h-auto bg-[#f6f6f6] dark:bg-[#232323] rounded-3xl p-2 flex flex-col customizedHidden2'>
                         <div className='flex flex-row items-center gap-3'>
                             <div className=' bg-[#f5f52e] inline-block rounded-2xl p-3'>
                             <svg fill='#232323'  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="30px"

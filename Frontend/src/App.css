@@ -68,6 +68,10 @@
   font-family: "Itim", cursive;
 }
 
+.monoton {
+  font-family: "Monoton", sans-serif;
+}
+
 .glowup {
   text-shadow: 0px 0px 10px rgb(0,255,195);
 }
@@ -125,4 +129,19 @@
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+}
+
+/* Contact Page CSS ends here */
+.formHidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(100%);
+  transition: all 600ms
+}
+
+.formShow {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+  transition: all 600ms
 }

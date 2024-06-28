@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import '../App.css'
 import { Link, NavLink } from 'react-router-dom'
+import {toast, Toaster} from 'react-hot-toast'
 import useTheme from '../context/context'
 import ThemeButton from './ThemeButton'
 import SideNavigation from './SideNavigation'
@@ -17,10 +18,12 @@ function Navbar () {
 
     const copyMailToClipBoard = () => {
         navigator.clipboard.writeText('biswasarijit2002@gmail.com')
+        toast.success('Mail Copied')
     }
 
   return (
     <nav className='bg-[#e5e5e5] dark:bg-[#323232] h-[60px] w-full px-6 flex flex-row items-center justify-between fixed z-50'>
+        <Toaster/>
         <div className='flex flex-row items-center gap-5'>
             <Logo />
             <div className='text-black dark:text-white kanit text-xl font-semibold md:hidden xl:block'>- by Arijit</div>
@@ -28,7 +31,7 @@ function Navbar () {
                 <div>biswasarijit2002@gmail.com</div>
                 <div className='bg-white dark:bg-[#6e6e6e] h-full flex items-center justify-end px-4 rounded-full cursor-pointer text-[17px]' onClick={copyMailToClipBoard}>copy</div>
             </div>
-            <Link className='hidden px-6 h-[35px] md:flex items-center bg-white dark:bg-[#6e6e6e] dark:text-white rounded-full shadow-sm shadow-[#a3a3a3]/50 dark:shadow-black/50 cabin'>
+            <Link to={'https://drive.google.com/file/d/1FCHNsOzYDJCFfi_19hazG0bOuSPTP_Z-/view?usp=sharing'} className='hidden px-6 h-[35px] md:flex items-center bg-white dark:bg-[#6e6e6e] dark:text-white rounded-full shadow-sm shadow-[#a3a3a3]/50 dark:shadow-black/50 cabin'>
                 CV
             </Link>
         </div>

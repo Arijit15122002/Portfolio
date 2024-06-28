@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 
 export const alfredough = [
     { url: 'https://res.cloudinary.com/daghlyuwh/image/upload/v1716910550/Portfolio/p8l6zjq9n5tmbgg546pv.png' },
@@ -40,7 +42,7 @@ export const SLIDES = [
                     <div className="text-xl protest text-violet-800 dark:text-violet-300 pl-6 pr-2 py-4">
                         Try it Here -
                     </div>
-                    <a href="">
+                    <a href="https://alfredough.vercel.app/">
                         <div className="text-xl text-white dark:text-violet-300 rounded-md p-3 bg-violet-600 dark:bg-[#111111] kanit">
                             Alfredough
                         </div>
@@ -77,7 +79,7 @@ export const SLIDES = [
                     <div className="text-xl protest text-red-800 dark:text-red-300 pl-6 pr-2 py-4">
                         Try it Here -
                     </div>
-                    <a href="">
+                    <a href="https://view-tube-pearl.vercel.app/">
                         <div className="text-xl text-white dark:text-red-300 rounded-md p-3 bg-red-600 dark:bg-[#111111] kanit">
                             View Tube
                         </div>
@@ -114,11 +116,11 @@ export const SLIDES = [
                     <div className="text-xl protest text-green-800 dark:text-green-300 pl-6 pr-2 py-4">
                         Try it Here -
                     </div>
-                    <a href="">
+                    <Link to={'/notReady'}>
                         <div className="text-xl text-white dark:text-green-300 rounded-md p-3 bg-green-600 dark:bg-[#111111] kanit">
                             Weatherly
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
@@ -151,11 +153,11 @@ export const SLIDES = [
                     <div className="text-xl protest text-blue-800 dark:text-blue-300 pl-6 pr-2 py-4">
                         Try it Here -
                     </div>
-                    <a href="">
+                    <Link to={'/notReady'}>
                         <div className="text-xl text-white dark:text-blue-300 rounded-md p-3 bg-blue-600 dark:bg-[#111111] kanit">
                             E-Voting
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -8,6 +8,7 @@ import About from './pages/About'
 import Project from './pages/Project'
 import Skill from './pages/Skill'
 import Contact from './pages/Contact'
+import NotReady from './pages/NotReady'
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
 				<Route path='/skill' element={ <Skill/> } />
 				<Route path='/about' element={ <About/> } />
 				<Route path='/contact' element={ <Contact/> } />
+				<Route path='/notReady' element={ <NotReady/> } />
 			</Route>
 		)
 	)
